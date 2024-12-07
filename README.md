@@ -137,6 +137,16 @@ print(f"F-Score: {f_score:.2f}")
 
 ![f-score](https://github.com/devcaiada/confusion-matrix/blob/main/assets/f-score.png?raw=true)
 
+### Legenda
+
+- **VP** (Verdadeiros Positivos): Casos positivos previstos corretamente.
+
+- **VN** (Verdadeiros Negativos): Casos negativos previstos corretamente.
+
+- **FP** (Falsos Positivos): Casos negativos previstos como positivos.
+
+- **FN** (Falsos Negativos): Casos positivos previstos como negativos.
+
 ### 5. Plotagem da Curva de ROC
 
 ~~~python
