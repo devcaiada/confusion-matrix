@@ -19,7 +19,7 @@ y_pred = model.predict(X_test)
 y_proba = model.predict_proba(X_test)[:, 1]
 
 cm = confusion_matrix(y_test, y_pred)
-plt.figure(figsize=(6, 6))
+plt.figure(figsize=(8, 6))
 plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
 plt.title('Matriz de Confusão')
 plt.colorbar()
@@ -27,8 +27,22 @@ classes = data.target_names
 tick_marks = np.arange(len(classes))
 plt.xticks(tick_marks, classes, rotation=45)
 plt.yticks(tick_marks, classes)
+
+# Anotar valores na matriz de confusão
+thresh = cm.max() / 2.
+for i, j in np.ndindex(cm.shape):
+    plt.text(j, i, f'{cm[i, j]}', horizontalalignment="center",
+             color="white" if cm[i, j] > thresh else "black")
+
 plt.ylabel('Classe Real')
 plt.xlabel('Classe Predita')
+plt.tight_layout()
+plt.show()
+
+# Printar a matriz de confusão
+print("Matriz de Confusão:")
+print(cm)
+
 
 print("Matriz de Confusão:")
 print(cm)
