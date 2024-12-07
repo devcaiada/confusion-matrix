@@ -119,23 +119,23 @@ print(f"F-Score: {f_score:.2f}")
 
 **Sensibilidade**: Medida da capacidade do modelo de identificar corretamente os positivos reais.
 
-![sensibilidade]()
+![sensibilidade](https://github.com/devcaiada/confusion-matrix/blob/main/assets/sensibilidade.png?raw=true)
 
 **Especificidade**: Medida da capacidade do modelo de identificar corretamente os negativos reais.
 
-![especificidade]()
+![especificidade](https://github.com/devcaiada/confusion-matrix/blob/main/assets/especificidade.png?raw=true)
 
 **Acurácia**: Proporção de verdadeiros resultados (positivos e negativos) entre o total de casos examinados.
 
-![acuracia]()
+![acuracia](https://github.com/devcaiada/confusion-matrix/blob/main/assets/acuracia.png?raw=true)
 
 **Precisão**: Proporção de positivos verdadeiros entre os resultados positivos previstos pelo modelo.
 
-![precisao]()
+![precisao](https://github.com/devcaiada/confusion-matrix/blob/main/assets/precisao.png?raw=true)
 
 **F-Score**: Média harmônica da precisão e da sensibilidade, útil para avaliar modelos com classes desbalanceadas.
 
-![f-score]()
+![f-score](https://github.com/devcaiada/confusion-matrix/blob/main/assets/f-score.png?raw=true)
 
 ### 5. Plotagem da Curva de ROC
 
@@ -182,7 +182,4 @@ python evaluate_model.py
 ## Contribuição <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />
 
 Sinta-se à vontade para contribuir com este projeto. Você pode abrir issues para relatar problemas ou fazer pull requests para melhorias.
-
-
-
 
