@@ -90,7 +90,7 @@ print(cm)
 
 A matriz de confusão mostra o desempenho do modelo de classificação, indicando os verdadeiros positivos (VP), verdadeiros negativos (VN), falsos positivos (FP) e falsos negativos (FN).
 
-![confusion-matrix]()
+![confusion-matrix](https://github.com/devcaiada/confusion-matrix/blob/main/assets/confusion-matrix.png?raw=true)
 
 ### 4. Cálculo das Métricas de Avaliação
 
@@ -114,6 +114,8 @@ print(f"Acurácia: {acurácia:.2f}")
 print(f"Precisão: {precisão:.2f}")
 print(f"F-Score: {f_score:.2f}")
 ~~~
+
+![print](https://github.com/devcaiada/confusion-matrix/blob/main/assets/print.png?raw=true)
 
 **Sensibilidade**: Medida da capacidade do modelo de identificar corretamente os positivos reais.
 
@@ -155,7 +157,7 @@ plt.show()
 
 A **Curva de ROC (Receiver Operating Characteristic)** é um gráfico que mostra a relação entre a taxa de verdadeiros positivos (Sensibilidade) e a taxa de falsos positivos. A área sob a curva (AUC) é uma medida de quão bem o modelo é capaz de distinguir entre classes positivas e negativas.
 
-![ROC-curve]()
+![ROC-curve](https://github.com/devcaiada/confusion-matrix/blob/main/assets/ROC-curve.png?raw=true)
 
 
 ## Como Executar
